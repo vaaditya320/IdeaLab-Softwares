@@ -51,12 +51,28 @@
             background-color: #ff4b81;
             transform: translateY(-5px) scale(1.05);
             box-shadow: 0 6px 20px rgba(255, 75, 129, 0.5);
-            color: #fff; /* Ensures the text stays white */
-            text-decoration: none; /* Removes the underline */
+            color: #fff;
+            text-decoration: none;
         }
         .software-button:active {
             transform: translateY(-2px) scale(1);
             box-shadow: 0 3px 10px rgba(255, 75, 129, 0.3);
+        }
+        footer {
+            background: linear-gradient(135deg, #2575fc, #6a11cb);
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+            width: 100%;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+        }
+        footer a {
+            color: #ff7eb3;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #ff4b81;
         }
     </style>
 </head>
@@ -72,6 +88,9 @@
         <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_Windows_64bit.exe" class="software-button" target="_blank" rel="noreferrer">Arduino IDE</a>
         <a href="https://drive.google.com/file/d/1AqWbpeeSuQ8GS1BfOilbvOyYgZnr0brp/view?usp=drivesdk" class="software-button" target="_blank" rel="noreferrer">CP210x Driver - USB to UART Bridge</a>
     </div>
+    <footer>
+        Developed and maintained by <a href="https://aadityavinayak.in.net" target="_blank" rel="noreferrer">Aaditya Vinayak</a>
+    </footer>
 
     <!-- Bootstrap JS and dependencies (for optional interactive components) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
