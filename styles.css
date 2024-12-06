@@ -112,7 +112,8 @@ body {
 
 /* Footer styling */
 footer {
-    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    /* background: linear-gradient(135deg, #2575fc, #6a11cb); */
+    background-color: #373a3d;
     color: #fff;
     text-align: center;
     padding: 15px;
@@ -156,4 +157,7 @@ footer a:hover {
     .navbar {
         font-size: 1rem;
     }
+}
+.name_color{
+    color: #ff7eb3;
 }
