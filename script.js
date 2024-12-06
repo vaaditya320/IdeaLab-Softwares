@@ -1,13 +1,10 @@
-// Hide preloader after page loads
-window.addEventListener("load", () => {
-    const preloader = document.getElementById("preloader");
-    preloader.style.display = "none";
+const cards = document.querySelectorAll('.card-inner');
 
-    // Animate buttons one by one
-    const buttons = document.querySelectorAll(".software-button");
-    buttons.forEach((button, index) => {
-        setTimeout(() => {
-            button.classList.add("show-button");
-        }, index * 200); // Delays each button
+cards.forEach(card => {
+    card.addEventListener('click', () => {
+        // Unflip other cards
+        cards.forEach(c => c !== card && c.classList.remove('is-flipped'));
+        // Flip the current card
+        card.classList.toggle('is-flipped');
     });
 });
