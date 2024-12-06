@@ -1,8 +1,10 @@
 /* General body styling */
 body {
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    /* background: linear-gradient(135deg, #6a11cb, #2575fc); */
+    /* background-color: #F5F5F7; */
+    background-color: rgb(240, 240, 242);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #fff;
+    color: #44475A;
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -44,8 +46,9 @@ body {
 
 /* Navbar styling */
 .navbar {
-    background: linear-gradient(135deg, #2575fc, #6a11cb);
-    color: white;
+    background-color: #2C2F33;
+    /* background: linear-gradient(135deg, #2575fc, #6a11cb); */
+    color: rgb(240, 240, 242);
     font-size: 1.5rem;
     font-weight: bold;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -65,7 +68,7 @@ body {
     padding: 20px;
     flex-grow: 1;
 }
-.nav_container{
+.content_container{
     text-align: center;
 }
 
@@ -73,7 +76,7 @@ body {
 .software-button {
     display: block;
     width: 100%;
-    background-color: #ff7eb3;
+    background-color: #8A2BE2;
     color: #fff;
     padding: 15px;
     font-size: 1.2rem;
@@ -94,7 +97,7 @@ body {
 
 /* Hover effect for buttons */
 .software-button:hover {
-    background-color: #ff4b81;
+    /* background-color: #ff4b81; */
     transform: translateY(0) scale(1.05);
     box-shadow: 0 6px 20px rgba(255, 75, 129, 0.5);
     text-decoration: none;
