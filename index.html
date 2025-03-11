@@ -6,156 +6,208 @@
     <title>Idea Lab Softwares</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XE647YM82L"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XE647YM82L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XE647YM82L');
+    </script>
 
-  gtag('config', 'G-XE647YM82L');
-</script>
+    <div class="page-container">
+        <header>
+            <div class="logo-container">
+                <div class="logo-icon"></div>
+                <h1>Idea Lab Softwares</h1>
+            </div>
+            <p class="tagline">Explore, Create & Innovate</p>
+        </header>
 
-    <header>
-        <h1>Idea Lab Softwares</h1>
-        <p>Explore, Create & Innovate</p>
-    </header>
-
-    <div class="grid-container">
-        <!-- LightBurn Software Card -->
-        <div class="card" onclick="flipCard(this)">
-            <div class="card-inner">
-                <div class="card-front">
-                    <h3 class="gradient-text">LightBurn</h3>
+        <main>
+            <div class="grid-container">
+                <!-- LightBurn Software Card -->
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-icon lightburn-icon"></div>
+                            <h3 class="gradient-text">LightBurn</h3>
+                        </div>
+                        <div class="card-back">
+                            <h3>LightBurn v1.7.03</h3>
+                            <p class="description">LightBurn is a layout, editing, and control software for laser cutters and engravers.</p>
+                            <a href="https://release.lightburnsoftware.com/LightBurn/Release/LightBurn-v1.7.03/LightBurn-v1.7.03.exe" class="btn">
+                                <span class="btn-text">Download</span>
+                                <span class="btn-icon">↓</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-back">
-                    <h3>LightBurn v1.7.03</h3>
-                    <p class="description">LightBurn is a layout, editing, and control software for laser cutters and engravers.</p>
-                    <a href="https://release.lightburnsoftware.com/LightBurn/Release/LightBurn-v1.7.03/LightBurn-v1.7.03.exe" class="btn">Download</a>
+
+                <!-- Ultimaker CURA Software Card -->
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-icon cura-icon"></div>
+                            <h3 class="gradient-text">Ultimaker CURA</h3>
+                        </div>
+                        <div class="card-back">
+                            <h3>Ultimaker CURA v5.8.1</h3>
+                            <p class="description">Cura is an open-source 3D printing software used for slicing and preparing models.</p>
+                            <a href="https://github.com/Ultimaker/Cura/releases/download/5.8.1/UltiMaker-Cura-5.8.1-win64-X64.exe" class="btn">
+                                <span class="btn-text">Download</span>
+                                <span class="btn-icon">↓</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EAGLE CAD Software Card -->
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-icon eagle-icon"></div>
+                            <h3 class="gradient-text">EAGLE CAD</h3>
+                        </div>
+                        <div class="card-back">
+                            <h3>EAGLE CAD</h3>
+                            <p class="description">A powerful schematic capture and PCB design tool.</p>
+                            <a href="https://drive.google.com/file/d/1vV2OtcTZP7N_WsHSux68uHPBF5lPUW8U/view?usp=sharing" class="btn">
+                                <span class="btn-text">Download</span>
+                                <span class="btn-icon">↓</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KiCAD Software Card -->
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-icon kicad-icon"></div>
+                            <h3 class="gradient-text">KiCAD</h3>
+                        </div>
+                        <div class="card-back">
+                            <h3>KiCAD v8.0.6</h3>
+                            <p class="description">KiCad is an open-source EDA software suite for designing electronic circuit schematics and PCB layouts.</p>
+                            <a href="https://github.com/KiCad/kicad-source-mirror/releases/download/8.0.6/kicad-8.0.6-x86_64.exe" class="btn">
+                                <span class="btn-text">Download</span>
+                                <span class="btn-icon">↓</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Arduino IDE Software Card -->
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-icon arduino-icon"></div>
+                            <h3 class="gradient-text">Arduino IDE</h3>
+                        </div>
+                        <div class="card-back">
+                            <h3>Arduino IDE</h3>
+                            <p class="description">The official integrated development environment for the Arduino platform.</p>
+                            <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_Windows_64bit.exe" class="btn">
+                                <span class="btn-text">Download</span>
+                                <span class="btn-icon">↓</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CP210x Driver Software Card -->
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-icon driver-icon"></div>
+                            <h3 class="gradient-text">CP210x Driver</h3>
+                        </div>
+                        <div class="card-back">
+                            <h3>CP210x Driver</h3>
+                            <p class="description">USB to UART Bridge VCP Drivers for Windows, macOS, and Linux.</p>
+                            <a href="https://drive.google.com/file/d/1AqWbpeeSuQ8GS1BfOilbvOyYgZnr0brp/view?usp=drivesdk" class="btn">
+                                <span class="btn-text">Download</span>
+                                <span class="btn-icon">↓</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CH340 Driver Software Card -->
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-icon driver-icon"></div>
+                            <h3 class="gradient-text">CH340 Driver</h3>
+                        </div>
+                        <div class="card-back">
+                            <h3>CH340 Driver</h3>
+                            <p class="description">USB to Serial Drivers for Windows.</p>
+                            <a href="https://drive.google.com/file/d/16IlGxkzA23RBhG8p1Dc5BjLYNhiKh7oM/view?usp=sharing" class="btn">
+                                <span class="btn-text">Download</span>
+                                <span class="btn-icon">↓</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ESP32 JSON Config Card -->
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-icon esp-icon"></div>
+                            <h3 class="gradient-text">ESP32 JSON Config</h3>
+                        </div>
+                        <div class="card-back">
+                            <h3>ESP32 JSON Config</h3>
+                            <p class="description">ESP32 JSON configuration file for the Arduino IDE.</p>
+                            <button class="btn" id="copyEsp32">
+                                <span class="btn-text">Copy Link</span>
+                                <span class="btn-icon">⧉</span>
+                            </button>
+                            <div class="copy-notification" id="esp32Notification">Copied!</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ESP8266 JSON Config Card -->
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-icon esp-icon"></div>
+                            <h3 class="gradient-text">ESP8266 JSON Config</h3>
+                        </div>
+                        <div class="card-back">
+                            <h3>ESP8266 JSON Config</h3>
+                            <p class="description">ESP8266 JSON configuration file for the Arduino IDE.</p>
+                            <button class="btn" id="copyEsp8266">
+                                <span class="btn-text">Copy Link</span>
+                                <span class="btn-icon">⧉</span>
+                            </button>
+                            <div class="copy-notification" id="esp8266Notification">Copied!</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </main>
 
-        <!-- Ultimaker CURA Software Card -->
-        <div class="card" onclick="flipCard(this)">
-            <div class="card-inner">
-                <div class="card-front">
-                    <h3 class="gradient-text">Ultimaker CURA</h3>
-                </div>
-                <div class="card-back">
-                    <h3>Ultimaker CURA v5.8.1</h3>
-                    <p class="description">Cura is an open-source 3D printing software used for slicing and preparing models.</p>
-                    <a href="https://github.com/Ultimaker/Cura/releases/download/5.8.1/UltiMaker-Cura-5.8.1-win64-X64.exe" class="btn">Download</a>
-                </div>
+        <footer>
+            <div class="footer-content">
+                <p>Developed, Designed, and Maintained by 
+                    <a href="https://aadityavinayak.in.net" target="_blank" rel="noreferrer" class="name-link purple-glow">Aaditya Vinayak</a>
+                    <span>&</span>
+                    <a href="https://sarthakchopra.tech" target="_blank" rel="noreferrer" class="name-link rainbow-text">Sarthak Chopra</a>
+                </p>
+                <div class="footer-year">© 2025 Idea Lab Softwares</div>
             </div>
-        </div>
-
-        <!-- EAGLE CAD Software Card -->
-        <div class="card" onclick="flipCard(this)">
-            <div class="card-inner">
-                <div class="card-front">
-                    <h3 class="gradient-text">EAGLE CAD</h3>
-                </div>
-                <div class="card-back">
-                    <h3>EAGLE CAD</h3>
-                    <p class="description">A powerful schematic capture and PCB design tool.</p>
-                    <a href="https://drive.google.com/file/d/1vV2OtcTZP7N_WsHSux68uHPBF5lPUW8U/view?usp=sharing" class="btn">Download</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- KiCAD Software Card -->
-        <div class="card" onclick="flipCard(this)">
-            <div class="card-inner">
-                <div class="card-front">
-                    <h3 class="gradient-text">KiCAD</h3>
-                </div>
-                <div class="card-back">
-                    <h3>KiCAD v8.0.6</h3>
-                    <p class="description">KiCad is an open-source EDA software suite for designing electronic circuit schematics and PCB layouts.</p>
-                    <a href="https://github.com/KiCad/kicad-source-mirror/releases/download/8.0.6/kicad-8.0.6-x86_64.exe" class="btn">Download</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Arduino IDE Software Card -->
-        <div class="card" onclick="flipCard(this)">
-            <div class="card-inner">
-                <div class="card-front">
-                    <h3 class="gradient-text">Arduino IDE</h3>
-                </div>
-                <div class="card-back">
-                    <h3>Arduino IDE</h3>
-                    <p class="description">The official integrated development environment for the Arduino platform.</p>
-                    <a href="https://downloads.arduino.cc/arduino-ide/arduino-ide_latest_Windows_64bit.exe" class="btn">Download</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- CP210x Driver Software Card -->
-        <div class="card" onclick="flipCard(this)">
-            <div class="card-inner">
-                <div class="card-front">
-                    <h3 class="gradient-text">CP210x Driver</h3>
-                </div>
-                <div class="card-back">
-                    <h3>CP210x Driver</h3>
-                    <p class="description">USB to UART Bridge VCP Drivers for Windows, macOS, and Linux.</p>
-                    <a href="https://drive.google.com/file/d/1AqWbpeeSuQ8GS1BfOilbvOyYgZnr0brp/view?usp=drivesdk" class="btn">Download</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- CH340 Driver Software Card -->
-        <div class="card" onclick="flipCard(this)">
-            <div class="card-inner">
-                <div class="card-front">
-                    <h3 class="gradient-text">CH340 Driver</h3>
-                </div>
-                <div class="card-back">
-                    <h3>CH340 Driver</h3>
-                    <p class="description">USB to Serial Drivers for Windows.</p>
-                    <a href="https://drive.google.com/file/d/16IlGxkzA23RBhG8p1Dc5BjLYNhiKh7oM/view?usp=sharing" class="btn">Download</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- ESP32 JSON Config Card -->
-        <div class="card" onclick="flipCard(this)">
-            <div class="card-inner">
-                <div class="card-front">
-                    <h3 class="gradient-text">ESP32 JSON Config</h3>
-
-                </div>
-                <div class="card-back">
-                    <h3>ESP32 JSON Config</h3>
-                    <p class="description">ESP32 JSON configuration file for the Arduino IDE.</p>
-                    <button class="btn" id="copyEsp32">Copy Link</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- ESP8266 JSON Config Card -->
-        <div class="card" onclick="flipCard(this)">
-            <div class="card-inner">
-                <div class="card-front">
-                    <h3 class="gradient-text">ESP8266 JSON Config</h3>
-                </div>
-                <div class="card-back">
-                    <h3>ESP8266 JSON Config</h3>
-                    <p class="description">ESP8266 JSON configuration file for the Arduino IDE.</p>
-                    <button class="btn" id="copyEsp8266">Copy Link</button>
-                </div>
-            </div>
-        </div>
+        </footer>
     </div>
-
-    <footer>
-        Developed, Designed, and Maintained by <a href="https://aadityavinayak.in.net" target="_blank" rel="noreferrer">Aaditya Vinayak</a><a> &</a>
-        <a href="https://sarthakchopra.tech" target="_blank" rel="noreferrer">Sarthak Chopra</a>
-    </footer>
 
     <script src="script.js"></script>
 </body>
